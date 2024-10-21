@@ -6,12 +6,12 @@ Open the launch options for deadlock in steam and add:
 
 ```-dx11 -novid -preload -m_rawinput 1 +exec autoexec.cfg``` 
 
-*unknown if m_rawinput exists in deadlock*
+*Unknown if m_rawinput exists in deadlock*
 
 swap -dx11 for -vulkan depending on your hardware config.
 
 # Auto Exec
-Add the autoexec.cfg file to your:
+Add the [autoexec.cfg](https://github.com/Skip-eo/Deadlock-Config/blob/main/autoexec.cfg) file to your:
 
 [Your steam install location here]\Steam\steamapps\common\Deadlock\game\citadel\cfg folder.
 
