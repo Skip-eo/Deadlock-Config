@@ -23,7 +23,7 @@ Open the launch options for deadlock in steam and add:
 swap -dx11 for -vulkan depending on your hardware config.
 
 ## Auto Exec
-Add the [autoexec.cfg](autoexec.cfg) file to your config folder:
+Add the [autoexec.cfg](/../main/autoexec.cfg) file to your config folder:
 
 ```[Your steam install location here]\Steam\steamapps\common\Deadlock\game\citadel\cfg```
 
@@ -35,17 +35,17 @@ Turns out the game currently increases and decreases your horizontal FOV dependi
 ### For NVidia GPU's
 In Nvidia Control Panel, under "Display" then "Adjust desktop size and position", set scaling mode to "Aspect Ratio" and check "Override the scaling mode set by games and programs"
 
-![Nvidia Control Panel Desktop Resizing](images\NVCP-Desktop-Sizing.png)
+![Nvidia Control Panel Desktop Resizing](/../main/images/NVCP-Desktop-Sizing.png)
 
 Under "Display" then "Change resolution", open the "Customise" window.
 
 *Note: if greyed out, ensure under "3D Settings" then "Manage 3D settings", that "DSR - Factors" has all options unchecked.
 
-![Nvidia Control Panel Change Res](images\NVCP-Change-Resolution.png)
+![Nvidia Control Panel Change Res](/../main/images/NVCP-Change-Resolution.png)
 
 In the "Customise" window, ensure "Enable resolutions not exposed by the display" is checked, then open the "Create Custom Resolution" window.
 
-![Nvidia Control Panel Custom Res](images\NVCP-Custom-Resolution.png)
+![Nvidia Control Panel Custom Res](/../main/images/NVCP-Custom-Resolution.png)
 
 In the "Create Custom Resolution" window, adjust the "Vertical lines" number to be the 21:9 equivalent of your monitor's native horizontal size. Ensure "Refresh rate (Hz)" matches the maximum refresh rate of your monitor. Then select "Test". If your monitor shows a 21:9 display, congratulations it's all working!
 
@@ -60,7 +60,7 @@ If your listed resolution is not here, simply divide your horizontal resolution 
 
 ***Note:*** *i've had one user with a monitor that perpetually showed "out of range" when attempting this, have yet to dive into why/how to fix it. If it happens to you, feel free to reach out.*
 
-![Nvidia Control Panel Custom Res Settings](images\NVCP-Custom-Resolution-Settings.png)
+![Nvidia Control Panel Custom Res Settings](/../main/images/NVCP-Custom-Resolution-Settings.png)
 
 ### For AMD GPU's
 TODO
@@ -89,11 +89,11 @@ Next, adjust the highlighted settings.
 
 ***(0 = 16:9, 1 = 16:10, 2 = 21:9)
 
-![Video.txt settings](images\Deadlock-Video-Config.png)
+![Video.txt settings](/../main/images/Deadlock-Video-Config.png)
 
 Next, right click on video.txt, and set the file to "Read-only". Click okay.
 
-![Video.txt read only](images\Deadlock-Set-Read-Only.png)
+![Video.txt read only](/../main/images/Deadlock-Set-Read-Only.png)
 
 Finally, use the windows shortcut "Win + Ctrl + Shift + B" to reboot your graphics drivers. You can now test launching Deadlock!
 
