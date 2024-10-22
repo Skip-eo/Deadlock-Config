@@ -102,4 +102,4 @@ If the game freezes on boot, use task manager to kill the application (project8.
 
 Back in your video.txt file, make sure to open properties and uncheck read-only, then change "fullscreen" to 0, "nowindowborder" to 1, and adjust your desktop resolution to the custom 21:9 one we set before. Remeber to recheck read-only!
 
-Currently troubleshooting as why this happens (only some users)
+Currently troubleshooting as to why this happens (only some users)
