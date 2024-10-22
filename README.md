@@ -30,7 +30,15 @@ Add the [autoexec.cfg](/../main/autoexec.cfg) file to your config folder:
 Uncomment and change the marked options in the autoexec to fit your preferences.
 
 ## 21:9 FOV Increase
-Turns out the game currently increases and decreases your horizontal FOV depending on your aspect ratio. By configuring your video.txt file to only reduce your vertical res, but keep your horizontal the same, you can increase your fov by ~20% (from default 75FOV at 16:9 to ~99FOV at 21:9).
+Turns out the game currently increases and decreases your horizontal FOV depending on your aspect ratio. By configuring your video.txt file to only reduce your vertical res, but keep your horizontal the same, you can increase your fov by ~20% (from default 75FOV at 16:9 to ~99FOV at 21:9). Here are some example pictures
+
+**16:9, 75FOV**
+
+![16:9 example](/../main/images/16by9.png)
+
+**21:9, ~99FOV**
+
+![21:9 example](/../main/images/21by9.png)
 
 ### For NVidia GPU's
 In Nvidia Control Panel, under "Display" then "Adjust desktop size and position", set scaling mode to "Aspect Ratio" and check "Override the scaling mode set by games and programs"
