@@ -29,6 +29,25 @@ Add the [autoexec.cfg](/../main/autoexec.cfg) file to your config folder:
 
 Uncomment and change the marked options in the autoexec to fit your preferences.
 
+## Game file modding
+To use mods, navigate to your deadlock files:
+
+```[Your steam install location here]\Steam\steamapps\common\Deadlock\game\citadel```
+
+And open gameinfo.gi in a text editor. Add in the missing commands to match the below image:
+
+![gameinfo.gi](/../main/images/gameinfo.png)
+
+Next, in that same folder, make a new folder named "addons", this is where any mods/custom elements will go.
+
+Any downloaded mods will be put into this folder with the file naming structure "pakXX._01.dir" where XX = the load order for mods. If you already have other mods installed, or wish to install more in the future, just increment the file name by one number, with 01 being the first to load and so on.
+
+## Quake III Arena Hitsounds/Killsounds
+
+Download the pak01_dir.vpk file and put it in the previously created "addons" folder. This will change your ingame hitsounds, crit-hitsounds and killsounds to that of Quake III arena's.
+
+The included autoexec removes the game's damage numbers to improve visual clarity as enemy healthbars are always visible anyways, with the new hitsounds it's much easier to know when you're hitting an enemy anyways.
+
 ## 21:9 FOV Increase
 Turns out the game currently increases and decreases your horizontal FOV depending on your aspect ratio. By configuring your video.txt file to only reduce your vertical res, but keep your horizontal the same, you can increase your fov by ~20% (from default 75FOV at 16:9 to ~99FOV at 21:9). Here are some example pictures
 
