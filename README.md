@@ -18,7 +18,7 @@ Set of optimisations, tweaks and improvements for Valve's Deadlock.
 ## Steam Launch Options
 Open the launch options for deadlock in steam and add:
 
-```-dx11 -novid -preload -m_rawinput 1 +exec autoexec.cfg``` 
+```-dx11 -novid -preload -m_rawinput 1``` 
 
 *Unknown if m_rawinput exists in deadlock*
 
