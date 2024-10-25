@@ -18,7 +18,7 @@ Set of optimisations, tweaks and improvements for Valve's Deadlock.
 ## Steam Launch Options
 Open the launch options for deadlock in steam and add:
 
-```-dx11 -novid -preload -m_rawinput 1 +exec autoexec.cfg``` 
+```-dx11 -novid -preload -m_rawinput 1``` 
 
 *Unknown if m_rawinput exists in deadlock*
 
@@ -36,7 +36,20 @@ To use mods, navigate to your deadlock files:
 
 ```[Your steam install location here]\Steam\steamapps\common\Deadlock\game\citadel```
 
-And open gameinfo.gi in a text editor. Add in the missing commands to match the below image:
+And open gameinfo.gi in a text editor. Add in the missing commands to match the below image (this will need to be re-added with every game updated):
+
+```
+SearchPaths
+		{
+			Mod					citadel
+			Mod					core
+			Write 				citadel
+			Write				core
+			Game				citadel/addons
+			Game				citadel
+			Game				core
+		}
+```
 
 ![gameinfo.gi](/images/gameinfo.png)
 
