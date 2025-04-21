@@ -1,4 +1,4 @@
-#Deprecated#
+# Deprecated
 
 # Deadlock Config by SKIÞ
 Set of optimisations, tweaks and improvements for Valve's Deadlock.
